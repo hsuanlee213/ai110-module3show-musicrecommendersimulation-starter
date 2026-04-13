@@ -79,6 +79,35 @@ Here is a sample terminal output showing the top recommendations, their scores, 
 ![CLI Recommendation Output](images/cli-output.png)
 
 ---
+## Stress Test Results
+
+I tested the recommender with multiple user profiles to see whether the scoring logic produced sensible recommendations across different music preferences. For each profile, I ran the program in the terminal and reviewed the top 5 recommended songs, along with their scores and explanation reasons.
+
+### High-Energy Pop
+
+This profile prefers upbeat pop songs with high energy and no acoustic preference.
+
+![High-Energy Pop CLI Output](images/high-energy-pop.png)
+
+### Chill Lofi
+
+This profile prefers chill lofi songs with low energy and an acoustic preference.
+
+![Chill Lofi CLI Output](images/chill-lofi.png)
+
+### Deep Intense Rock
+
+This profile prefers intense rock songs with very high energy and no acoustic preference.
+
+![Deep Intense Rock CLI Output](images/deep-intense-rock.png)
+
+### Acoustic Metal
+
+This edge-case profile combines intense rock preferences with a strong acoustic preference. I used it to test whether the system could handle conflicting preferences without producing unreasonable recommendations.
+
+![Acoustic Metal CLI Output](images/acoustic-metal.png)
+
+---
 
 ## Getting Started
 
